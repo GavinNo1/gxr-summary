@@ -1,1 +1,0 @@
-![](.trap_images/trap.png)
