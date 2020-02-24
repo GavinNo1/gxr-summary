@@ -20,7 +20,7 @@ import java.util.Set;
  * 链接：https://leetcode-cn.com/problems/longest-consecutive-sequence
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class LongestConsecutive {
+public class LongestConsecutiveSequence {
     /**
      * 时间复杂度：O(nlgn)
      * @param nums
@@ -79,7 +79,7 @@ public class LongestConsecutive {
 
     public static void main(String[] args) {
         int[] nums = new int[]{100,4,200,1,3,2};
-        LongestConsecutive longestConsecutive = new LongestConsecutive();
-        longestConsecutive.longestConsecutive2(nums);
+        LongestConsecutiveSequence longestConsecutiveSequence = new LongestConsecutiveSequence();
+        longestConsecutiveSequence.longestConsecutive2(nums);
     }
 }

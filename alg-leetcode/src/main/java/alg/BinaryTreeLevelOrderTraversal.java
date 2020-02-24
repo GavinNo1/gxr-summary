@@ -31,7 +31,7 @@ import java.util.Queue;
  * 链接：https://leetcode-cn.com/problems/binary-tree-level-order-traversal
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class LevelOrderTree {
+public class BinaryTreeLevelOrderTraversal {
     /**
      *迭代
      * @param root
@@ -112,7 +112,7 @@ public class LevelOrderTree {
         node.right =noderight;
         node.right.left =noderightleft;
         node.right.right =noderightright;
-        LevelOrderTree levelOrderTree = new LevelOrderTree();
-        levelOrderTree.levelOrder2(node);
+        BinaryTreeLevelOrderTraversal binaryTreeLevelOrderTraversal = new BinaryTreeLevelOrderTraversal();
+        binaryTreeLevelOrderTraversal.levelOrder2(node);
     }
 }

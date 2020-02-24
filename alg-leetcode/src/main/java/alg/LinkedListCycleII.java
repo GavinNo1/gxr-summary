@@ -13,7 +13,7 @@ import java.util.Set;
  *
  * 说明：不允许修改给定的链表。
  */
-public class CycleListNode2 {
+public class LinkedListCycleII {
     /**
      * 哈希表
      * @param head

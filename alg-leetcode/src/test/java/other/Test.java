@@ -1,8 +1,20 @@
 package other;
 
+import java.util.TreeMap;
+
 public class Test {
     public static void main(String[] args) {
-        String s = "abcd";
-        System.err.println(s.substring(0,2));
+        // creating tree map
+        TreeMap<Integer, String> treemap = new TreeMap<Integer, String>();
+
+        // populating tree map
+        treemap.put(2, "two");
+        treemap.put(1, "one");
+        treemap.put(3, "three");
+        treemap.put(6, "six");
+        treemap.put(5, "five");
+
+        System.out.println("Checking floor entry for 6");
+        System.out.println("Value is: "+ treemap.floorEntry(6));
     }
 }

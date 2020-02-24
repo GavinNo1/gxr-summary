@@ -3,7 +3,7 @@ package alg;
 import base.TreeNode;
 import org.junit.Test;
 
-public class Tree2ListTest {
+public class FlattenBinaryTreeToLinkedListTest {
     @Test
     public void flattenTest() {
         TreeNode node = new TreeNode(1);
@@ -17,6 +17,6 @@ public class Tree2ListTest {
         node.left.left = leftleft;
         node.left.right = leftright;
         node.right.right = rightright;
-        Tree2List.flatten(node);
+        FlattenBinaryTreeToLinkedList.flatten(node);
     }
 }

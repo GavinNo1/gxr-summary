@@ -5,7 +5,7 @@ import base.TreeNode;
 import java.util.HashMap;
 import java.util.Stack;
 
-public class BuildTree {
+public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
     // start from first preorder element
     int pre_idx = 0;
     int[] preorder;
@@ -57,8 +57,8 @@ public class BuildTree {
     public static void main(String[] args) {
         int[] pre = new int[]{3,9,20,15,7};
         int[] in = new int[]{9,3,15,20,7};
-        BuildTree buildTree = new BuildTree();
-        TreeNode node = buildTree.buildTree(pre, in);
+        ConstructBinaryTreeFromPreorderAndInorderTraversal constructBinaryTreeFromPreorderAndInorderTraversal = new ConstructBinaryTreeFromPreorderAndInorderTraversal();
+        TreeNode node = constructBinaryTreeFromPreorderAndInorderTraversal.buildTree(pre, in);
         System.err.println(node);
     }
 

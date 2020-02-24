@@ -3,7 +3,7 @@ package alg;
 import base.ListNode;
 import org.junit.Test;
 
-public class CycleListNodeTest {
+public class LinkedListCycleTest {
     @Test
     public void hasCycleTest() {
         ListNode node = new ListNode(3);
@@ -14,6 +14,6 @@ public class CycleListNodeTest {
         node1.next = node2;
         node2.next = node3;
         node3.next = node1;
-        CycleListNode.hasCycle(node);
+        LinkedListCycle.hasCycle(node);
     }
 }
