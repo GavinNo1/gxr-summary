@@ -25,7 +25,7 @@ import base.Index;
  * 链接：https://leetcode-cn.com/problems/jump-game
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class CanJump {
+public class JumpGame {
     /**
      * 这是一个低效的解决方法。我们模拟从第一个位置跳到最后位置的所有方案。从第一个位置开始，模拟所有可以跳到的位置，然后从当前位置重复上述操作，当没有办法继续跳的时候，就回溯
      * @param position

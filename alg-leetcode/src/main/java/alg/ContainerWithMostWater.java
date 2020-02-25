@@ -9,7 +9,7 @@ package alg;
  * 链接：https://leetcode-cn.com/problems/container-with-most-water
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class MaxArea {
+public class ContainerWithMostWater {
     /**
      * 暴力法
      * 在这种情况下，我们将简单地考虑每对可能出现的线段组合并找出这些情况之下的最大面积。

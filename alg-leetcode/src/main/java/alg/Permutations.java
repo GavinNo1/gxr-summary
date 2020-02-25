@@ -23,7 +23,7 @@ import java.util.*;
  * 链接：https://leetcode-cn.com/problems/permutations
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class Permute {
+public class Permutations {
 
 
     /**
@@ -163,7 +163,7 @@ public class Permute {
 
     public static void main(String[] args) {
         int[] nums = {1, 2, 3};
-        Permute solution = new Permute();
+        Permutations solution = new Permutations();
         List<List<Integer>> lists = solution.permute3(nums);
         System.out.println(lists);
     }

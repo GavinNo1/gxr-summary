@@ -30,7 +30,7 @@ package alg;
  * 链接：https://leetcode-cn.com/problems/rotate-image
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class Rotate {
+public class RotateImage {
     /**
      * 最直接的想法是先转置矩阵，然后翻转每一行。这个简单的方法已经能达到最优的时间复杂度O(N^2)
      * @param matrix

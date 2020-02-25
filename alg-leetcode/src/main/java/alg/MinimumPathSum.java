@@ -21,7 +21,7 @@ package alg;
  * 链接：https://leetcode-cn.com/problems/minimum-path-sum
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class MinPathSum {
+public class MinimumPathSum {
     /**
      * 暴力就是利用递归，对于每个元素我们考虑两条路径，向右走和向下走，在这两条路径中挑选路径权值和较小的一个。
      * cost(i,j)=grid[i][j]+min(cost(i+1,j),cost(i,j+1))

@@ -3,7 +3,7 @@ package alg;
 import base.ListNode;
 import org.junit.Test;
 
-public class MergeTwoListsTest {
+public class MergeTwoSortedListsTest {
     @Test
     public void mergeTwoListsTest() {
         ListNode first = new ListNode(1);
@@ -12,6 +12,6 @@ public class MergeTwoListsTest {
         ListNode second = new ListNode(1);
         second.next = new ListNode(3);
         second.next.next = new ListNode(4);
-        MergeTwoLists.mergeTwoLists(first, second);
+        MergeTwoSortedLists.mergeTwoLists(first, second);
     }
 }

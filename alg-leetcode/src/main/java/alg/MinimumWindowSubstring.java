@@ -23,7 +23,7 @@ import java.util.Map;
  * 链接：https://leetcode-cn.com/problems/minimum-window-substring
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class MinWindow {
+public class MinimumWindowSubstring {
     /**
      * 滑动窗口
      * 本问题要求我们返回字符串SS 中包含字符串TT的全部字符的最小窗口。我们称包含TT的全部字母的窗口为可行窗口。

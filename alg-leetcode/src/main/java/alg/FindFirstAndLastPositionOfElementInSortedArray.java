@@ -21,7 +21,7 @@ package alg;
  * 链接：https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class SearchRange {
+public class FindFirstAndLastPositionOfElementInSortedArray {
 
     // returns leftmost (or rightmost) index at which `target` should be
     // inserted in sorted array `nums` via binary search.
