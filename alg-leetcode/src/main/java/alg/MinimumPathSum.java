@@ -98,7 +98,7 @@ public class MinimumPathSum {
 
     /**
      * 动态规划
-     * 和方法 2 相同，惟一的区别是，不需要用额外的 dpdp 数组，而是在原数组上存储，这样就不需要额外的存储空间。递推公式如下：
+     * 和方法 2 相同，惟一的区别是，不需要用额外的 dp 数组，而是在原数组上存储，这样就不需要额外的存储空间。递推公式如下：
      * grid(i,j)=grid(i,j)+min(grid(i+1,j),grid(i,j+1))
      * @param grid
      * @return

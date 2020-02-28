@@ -1,20 +1,64 @@
 package other;
 
+import java.util.Collections;
+import java.util.Random;
 import java.util.TreeMap;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.TimeUnit;
 
 public class Test {
+
     public static void main(String[] args) {
-        // creating tree map
-        TreeMap<Integer, String> treemap = new TreeMap<Integer, String>();
+//        CompletableFuture<Void> future = CompletableFuture
+//                .supplyAsync(() -> cale(50))
+//                .thenApply(i -> Integer.toString(i))
+////                .thenApply(str -> "\"" + str + "\"")
+//                .thenAccept(System.out::println);
+//        try {
+//            future.get();
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        } catch (ExecutionException e) {
+//            e.printStackTrace();
+//        }
 
-        // populating tree map
-        treemap.put(2, "two");
-        treemap.put(1, "one");
-        treemap.put(3, "three");
-        treemap.put(6, "six");
-        treemap.put(5, "five");
+//        CompletableFuture<Void> future = CompletableFuture
+//                .supplyAsync(() -> cale(50))
+//                .exceptionally(ex -> {
+//                    System.out.println("ex.toString() = " + ex.toString());
+//                    return 0;
+//                })
+//                .thenApply(i -> Integer.toString(i))
+//                .thenApply(str -> "\"" + str + "\"")
+//                .thenAccept(System.out::println);
 
-        System.out.println("Checking floor entry for 6");
-        System.out.println("Value is: "+ treemap.floorEntry(6));
+        CompletableFuture<Void> future = CompletableFuture
+                .supplyAsync(() -> cale(50))
+                .thenCompose(i -> CompletableFuture
+                        .supplyAsync(() -> cale(i)))
+                .thenApply(i -> Integer.toString(i))
+                .thenApply(str -> "\"" + str + "\"")
+                .thenAccept(System.out::println);
+
+        try {
+            future.get();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
     }
+
+
+    public static Integer cale(Integer para) {
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return para * para;
+    }
+
 }

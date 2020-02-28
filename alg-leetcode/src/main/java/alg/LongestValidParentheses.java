@@ -82,4 +82,8 @@ public class LongestValidParentheses {
         }
         return maxans;
     }
+
+    public static void main(String[] args) {
+        String s ="())((())";
+    }
 }

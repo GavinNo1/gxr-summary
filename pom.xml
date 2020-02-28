@@ -17,6 +17,7 @@
 
   <modules>
     <module>alg-leetcode</module>
+    <module>concurrent</module>
   </modules>
 
   <build>
