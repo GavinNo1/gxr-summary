@@ -16,7 +16,8 @@ netty数据流转
     通常SocketChannel设置为非阻塞模式，而ServerSocketChannel为服务端监听客户端连接请求，可以设置为阻塞模式，即在accept中阻塞等待客户端的连接请求
     
 基于netty的心跳检测应用
-https://blog.csdn.net/u010013573/article/details/85222823
+    
+    https://blog.csdn.net/u010013573/article/details/85222823
 
 基于netty的拆包黏包
 
