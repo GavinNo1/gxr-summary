@@ -1,5 +1,8 @@
 netty网络模型
-https://www.jianshu.com/p/6ae30cf5ae9e
+   
+    https://www.jianshu.com/p/6ae30cf5ae9e
+    https://www.jianshu.com/p/03bb8a945b37
+    https://blog.csdn.net/baixiaoshi/article/details/48708347
 netty客户端 服务端 解读
 
     https://blog.csdn.net/u010013573/article/details/84726991

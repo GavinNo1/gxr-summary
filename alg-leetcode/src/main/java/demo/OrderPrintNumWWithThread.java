@@ -51,7 +51,7 @@ public class OrderPrintNumWWithThread {
         List<Condition> conditions = null;
 
         public Worker(int index, ReentrantLock lock, List<Condition> conditions){
-            super("Worker:"+index);
+            super("Worker-"+index);
             this.index = index;
             this.lock = lock;
             this.conditions = conditions;
