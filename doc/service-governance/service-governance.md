@@ -13,10 +13,7 @@ https://www.iteye.com/blog/javatar-1123915
     涉及到rpc组件 如dubbo
     涉及到注册中心 zk（cp） 或者其他如nacos（ap）
     涉及到网络框架 netty
-    涉及到的限流组件 如 sentinel 令牌桶 漏斗算法
-        
-        https://www.javazhiyin.com/39808.html
-        
+    涉及到的限流组件 如 sentinel 令牌桶 漏斗算法        
     涉及到全链路跟踪组件 sofatracer
     涉及到日志归集组件
     涉及到告警组件
