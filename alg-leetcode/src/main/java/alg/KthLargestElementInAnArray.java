@@ -24,7 +24,7 @@ import java.util.PriorityQueue;
  */
 public class KthLargestElementInAnArray {
 
-    public int findKthLargest(int[] nums, int k) {
+    public static int findKthLargest(int[] nums, int k) {
         // init heap 'the smallest element first'
         PriorityQueue<Integer> heap =
                 new PriorityQueue<Integer>((n1, n2) -> n1 - n2);
@@ -38,6 +38,11 @@ public class KthLargestElementInAnArray {
 
         // output
         return heap.poll();
+    }
+
+    public static void main(String[] args) {
+        int[] num = new int[]{3,2,1,5,6,4};
+        findKthLargest(num, 2);
     }
 
 }

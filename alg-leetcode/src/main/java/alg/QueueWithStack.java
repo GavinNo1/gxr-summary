@@ -1,8 +1,8 @@
-package demo;
+package alg;
 
 import java.util.Stack;
 
-public class StackTest {
+public class QueueWithStack {
     private Stack<String> inStack = new Stack();
     private Stack<String> outStack = new Stack();
 
@@ -24,5 +24,4 @@ public class StackTest {
         }
         return item;
     }
-
 }

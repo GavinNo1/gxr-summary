@@ -1,4 +1,4 @@
-package demo;
+package alg;
 
 public class ArrayMinMax {
     private static int min;

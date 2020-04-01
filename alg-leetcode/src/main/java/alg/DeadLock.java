@@ -1,4 +1,4 @@
-package demo;
+package alg;
 
 public class DeadLock {
     private static Object lock1 = new Object();

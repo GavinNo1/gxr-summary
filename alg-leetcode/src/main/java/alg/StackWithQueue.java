@@ -1,11 +1,9 @@
-package demo;
-
-import com.sun.jmx.remote.internal.ArrayQueue;
+package alg;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class QueueTest {
+public class StackWithQueue {
     private static Queue<String> queue1 = new LinkedList();
     private static Queue<String> queue2 = new LinkedList();
 
