@@ -10,6 +10,7 @@ tcp 三次握手与四次握手
     
     https://blog.csdn.net/smileiam/article/details/78226816
     https://blog.csdn.net/lengxiao1993/article/details/82771768
+    https://blog.csdn.net/qq_28000789/article/details/87780126
 
 threadlocal
     
@@ -54,3 +55,8 @@ java内存模型
     https://www.zhihu.com/question/20255499
     https://www.cnblogs.com/duanxz/p/4967042.html
     并发集合相关
+
+mysql死锁等
+    
+    https://www.cnblogs.com/duanxz/p/4394641.html
+    https://my.oschina.net/wuweixiang/blog/3013479

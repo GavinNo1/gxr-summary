@@ -62,5 +62,6 @@ cache觉得比较好的链接
     https://tech.meituan.com/2017/03/17/cache-about.html
     http://blog.yangliu.online/2016/10/18/distributed-consistency-and-caching-techniques/
     https://tech.youzan.com/tmc/
+    https://wetest.qq.com/lab/view/?hmsr=toutiao.io&id=80&utm_medium=toutiao.io&utm_source=toutiao.io
 
 
